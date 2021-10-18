@@ -1,6 +1,6 @@
 # Quick DJ
 
-This is a [Svelte](https://svelte.dev) project with [PUG]i(https://pugjs.org/) and [pug2svelte](https://github.com/pynnl/pug2svelte)
+This is a [Svelte](https://svelte.dev) project with [PUG](https://pugjs.org/) and [pug2svelte](https://github.com/pynnl/pug2svelte)
 
 ## TODOs
 
