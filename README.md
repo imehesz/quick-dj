@@ -2,7 +2,7 @@
 
 This is a [Svelte](https://svelte.dev) project with [PUG]i(https://pugjs.org/) and [pug2svelte](https://github.com/pynnl/pug2svelte)
 
-#TODOs
+## TODOs
 
 - clean up dependencies
 - add list of crates
