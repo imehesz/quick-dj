@@ -4,18 +4,21 @@ script.
     name = "Quick DJ"
 
 main
-    h1 {name}
+    header.p-3.bg-dark.text-white
+        div.container
+            div.d-flex.align-items-center.justify-content-center.justify-content-lg-start
+                ul.nav.col-12.col-lg-auto.me-lg-auto.mb-2.justify-content-center.mb-md-0
+                    li
+                        a.nav-link.px-2.text-secondary(href="/") Home
+                    li
+                        a.nav-link.px-2.text-secondary.text-white(href="#crates") Crates
+                    li
+                        a.nav-link.px-2.text-secondary.text-white(href="#songlist") Song List
+                    span.d-flex.align-items-center.me-auto.mb-2.mb-lg-0.text-decoration-none Quick DJ v.0.1
+    div.container
+    footer.footer.mt-auto.py-3.bg-dark
+        div.container
+            span.text-muted Made with heart by Moi
 
 style.
-    main {
-        text-align: center;
-        padding: 1em;
-        margin: 0 auto;
-    }
-
-    h1 {
-        color: #ff3e00;
-        text-transform: uppercase;
-        font-size: 4em;
-        font-weight: 100;
-    }
+    main {}
